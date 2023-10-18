@@ -16,7 +16,7 @@ jobs:
       run: docker build . --file Dockerfile --tag ${{ secrets.agostinamorellato }}/simple-web-api-gh:latest
     
     - name: Log in to Docker Hub
-      run: docker login -u ${{ secrets.agostinamorellato }} -p ${{ secrets.agostinamorellatopw }}
+      run: docker login -u ${{ secrets.agostinamorellato }} -p ${{ secrets.sonPy8-cikgig-zuxbag }}
     
     - name: Push Docker image to Docker Hub
       run: |
